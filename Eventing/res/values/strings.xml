@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, FinalEmbeddedProjectActivity!</string>
+    <string name="app_name">Eventing</string>
+    <string name="login_success">登入成功</string>
+    <string name="login_failed">登入失敗</string>
+    <string name="date_result">你設定的時間為</string>
+	<string name="about">版本 1.0.0 關於協力廠商軟體的協力廠商聲明、條款與條件請參閱http://www.ntust.edu.tw  Copyright ©2012 NTUST Embedded System team Incorporated and its licensors. All right served.</string>
+    <string name="help">目前不提供任何幫助，請自求多福</string>
+    <string name="confirm">OK</string>
+    <string name="bad_end_time">End time cannot be before start!</string>
+    <string name="bad_start_time">Start time must be before end time!</string>
+    <string name="create_job">Create job</string>
+    <string name="click_to_call">Click to call.</string>
+    <string name="event_in_progress">活動進行中</string>
+    <string name="choose_date_prompt">Event Date</string>
+    <string name="no_workers_toast">You have no workers for this event!</string>
+    <string name="event_not_started">活動還沒開始</string>
+    <string name="event_over">活動結束</string>
+    <string name="set_date">設定活動時間</string>
+</resources>

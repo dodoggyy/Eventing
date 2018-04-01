@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/editActivityName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="活動名稱"
+            android:textSize="30sp" />
+
+<!--         <TableRow> -->
+
+<!--             <TextView -->
+<!--                 android:id="@+id/txtDate" -->
+<!--                 android:layout_width="0dp" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:layout_weight="1" -->
+<!--                 android:text="日期:" -->
+<!--                 android:textSize="20sp" /> -->
+<!--         </TableRow> -->
+
+<!--         <TableRow> -->
+
+<!--             <Button -->
+<!--                 android:id="@+id/btnEdtDate" -->
+<!--                 android:layout_width="0dp" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:layout_weight="2" -->
+<!--                 android:gravity="center_horizontal" -->
+<!--                 android:text="未定" /> -->
+<!--         </TableRow> -->
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/txtTime"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="時間:"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btnEdtTime1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:text="未定" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="到" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btnEdtTime2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="未定" />
+        </TableRow>
+
+        <TableRow android:baselineAligned="false" >
+
+            <CheckBox
+                android:id="@+id/checkImportant"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="重要" />
+
+            <CheckBox
+                android:id="@+id/checkFinish"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="已完成" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="地點:"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10" >
+
+                <requestFocus />
+            </EditText>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textDesciption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="描述:"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="20"
+                android:ems="10" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textPS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="備註:"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editPS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="20"
+                android:ems="10" />
+        </TableRow>
+
+        <TableRow>
+        </TableRow>
+
+        <LinearLayout>
+
+            <Button
+                android:id="@+id/OK"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="確定" />
+        </LinearLayout>
+    </TableLayout>
+
+</ScrollView>
